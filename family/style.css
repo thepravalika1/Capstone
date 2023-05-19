@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+
+.one .left{
+    padding: 0 2rem;
+    background: aquamarine;
+    background-size: cover;
+}
+.one .left h1 span{
+    color: blueviolet;
+    font-size: 1.5rem;
+    
+}
+.one .left h1{
+    font-size: 1.2rem;
+}
+.one .left p{
+    margin-top: 1vh;
+    color: red;
+    font-size: 0.9rem;
+}
+.one .right{
+    
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+.one .right img{
+    
+    
+    height: 15rem;
+    width: 100%;
+    
+}
+.two{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 1rem;
+}
+.two .box{
+    padding: 1rem;
+    border: 1px solid lightblue;
+
+}
+.two .box h3{
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+}
+.two .box img{
+    height: 2rem;
+
+}
+
+.two .box button{
+    border: none;
+    padding: 0.8rem;
+    background: royalblue;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 2rem;
+
+}
+.three .left img{
+    height: 13rem;
+    width: 100%;
+    
+}
+.three .right{
+    background: aqua;
+    padding: 3rem 3rem;
+}
+.three .right form{
+    
+    height: 18rem;
+    border-radius: 16px;
+    gap: 0;
+    border: 2px solid black;
+    background: white;
+    
+    
+    
+    
+
+}
+.three .right form .item{
+    background: 1px solid gray;
+    margin: 1rem 1rem;
+
+}
+
+.three .right form .item input{
+    border: none;
+    text-decoration: underline;
+    font-size: 1rem;
+    background: none;
+   
+    
+}
+
+.three .right form button{
+    height: 2rem;
+    width: 4rem;
+    align-items: center;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 3rem;
+    justify-self: center;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+/* media queries*/
+@media screen and (min-width: 1200px){
+    .one{
+        display: flex;
+    }
+    .one .left{
+        padding: 0 3rem;
+        width: 50%;
+    }
+    .one .left h1 span{
+        
+        font-size: 3rem;
+        
+    }
+    .one .left h1{
+        font-size: 3rem;
+        
+    }
+    .one .left p{
+        font-size: 1rem;
+    }
+    .one .right img{
+        height: 26rem;
+    }
+    
+    .two .box{
+        height: 8rem;
+        font-size: 4rem;
+    
+
+    }
+    .two .box button{
+        font-size: 1rem;
+        margin-left: 15rem;
+    }
+    .two .box h3{
+        font-size: 1.1rem;
+    }
+    .two .box img{
+        height: 3rem;
+        padding-top: 0;
+
+    }
+    .three{
+        display: flex;
+    }
+    .three .right form{
+        border: 2px solid black;
+        background: white;
+        margin: 3rem 3rem;
+        justify-content: center;
+    }
+    .three .left{
+        width: 50%;
+    }
+    .three .left img{
+        height: 26rem;
+
+    }
+    
+    .three .right{
+        width: 50%;
+        
+        margin: 0 0;
+    }
+    .three .right form button{
+        width: 6rem;
+        border-radius: 10px;
+        
+    } 
+
+}
+    

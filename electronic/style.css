@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    overflow-y: hidden;
+}
+main{
+    background: blanchedalmond;
+    height: 90vh;
+    margin-top: -1rem;
+}
+
+main header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+    height: 10vh;
+}
+.underline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+main header ul li{
+    padding: 1rem;
+}
+main .heyy{
+    display: flex;
+}
+
+main .heyy .left{
+    width: 50%;
+}
+main .heyy .left li{
+
+    padding: 0.5rem;
+    list-style: none;
+}
+main .heyy .left .one{
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+}
+main .heyy .left img{
+    height: 2.2rem;
+    width: 2.2rem;
+    margin-left: 5rem;
+    align-items: center;
+    
+}
+main .heyy .left h1{
+    font-size: 4rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+main .heyy .left .two{
+    margin: 0;
+    font-size: 1.3rem;
+    
+}
+main .heyy .left .two .box{
+    
+    display: flex;
+    margin-top: 1.5rem;
+}
+main .heyy .left .two .box img {
+   
+    height: 2rem;
+    width: 2rem;
+
+}
+
+main .heyy .right{
+    width: 50%;
+
+}
+main .heyy .right img{
+    margin-left: 15rem;
+    margin: 4rem;
+    height: 17rem;
+    width: 18rem;
+    margin-left: 9rem;
+}
+main .heyy .right .pqr{
+    display: flex;
+
+}
+main .heyy .right .pqr p{
+    font-size: 1.3rem;
+    margin-top: 7rem;
+    margin-left: 0;
+    writing-mode: vertical-rl;
+}
+footer{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 0.2rem;
+    height: 10vh;
+
+
+}
+footer li img{
+    
+    height: 3rem;
+    width: 3rem;
+
+}
+footer li{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}

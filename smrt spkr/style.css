@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    background-color: pink;
+    color: black;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+    margin-top: 1.2rem;
+    align-items: center;
+}
+header ul li{
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.underline:hover{
+    text-decoration: underline;
+
+}
+header ul li img{
+    height: 2rem;
+    width: 2rem;
+}
+main{
+    padding: 0%;
+    height: 85vh;
+    display: flex;
+    width: 100%;
+    
+}
+main .left{
+    width: 40%;
+    display: grid;
+    grid-template-rows: 70% auto;
+
+}
+main .left .top{
+    display: flex;
+    justify-content: center;
+}
+main .left h1{
+    margin-top: 4rem;
+    margin-left: 1rem;
+    font-size: 4rem;
+    font-family: 'Lato';
+}
+main .left .top p{
+    margin-top: 5rem;
+    margin-right: 1rem;
+    writing-mode: vertical-lr;
+}
+main .left .bottom{
+    margin-left: 7rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.limited{
+    background: white;
+    color: black;
+    padding: 1rem;
+    right: 0;
+    position: absolute;
+    writing-mode: vertical-lr;
+    top: -30;
+    margin-top: 0.3rem;
+}
+main .left .bottom p{
+    font-size: 1rem;
+}
+main .left .bottom h3{
+    font-size: 1.5rem;
+}
+main .right{
+    width: 60%;
+    
+}
+main .right .top{
+    display: flex;
+}
+
+main .right .top img{
+    height: 20rem;
+    margin-top: 2rem;
+    filter: drop-shadow(15px 16px 7px rgba(175, 21, 21, 0.5));
+}
+main .right .top .b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+
+}
+main .right .top .b h2{
+    font-size: 38px;
+    margin-top: 6rem;
+}
+main .right .top .b ul{
+    
+    margin-top: 5rem;
+    list-style: none;
+}
+main .right .top ul li{
+    padding: 0.7rem;
+}
+main .right .bottom p{
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 26rem;
+    
+    
+
+
+
+}

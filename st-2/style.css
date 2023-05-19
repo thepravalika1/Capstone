@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:ital,wght@0,200;0,600;1,300;1,400&family=Poppins:wght@300;400;700&family=Rokkitt:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'rokkitt';
+}
+body{
+    overflow-x: hidden; 
+}
+h3{
+    color: rgb(60, 207, 217);
+}
+h1{
+    color: rgb(60, 207, 217);
+}
+.one .left{
+    margin-left: 1.5rem;
+}
+.one .left .top{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.one .left .top img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.one .left h3{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+.one .left p{
+    margin-top: 1.5rem;
+    width: 80%;
+
+}
+.one .left h4{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: rgb(60, 207, 217);
+}
+.one .left .buttons{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.one .left .buttons .b{
+    background: rgb(245, 230, 232);
+    border-radius: 5px;
+}
+.one .left .buttons .b p{
+    margin: 0.7rem 0.5rem;
+    justify-content: center;
+}
+.one .right .foreground{
+    height: 6rem;
+    width: auto;
+    position: absolute;
+    border-radius: 15px;
+    border: 3px solid white;
+    margin-top: 4.5rem;
+    margin-left: 5rem;
+    rotate: 8deg;
+}
+.one .right{
+    margin-top: 6rem;
+    position: relative;
+}
+.one .right .background{
+    height: auto;
+    width: 100%;
+}
+.two{
+    margin-top: 0.5rem;
+    
+}
+.two h3{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    text-align: center;
+}
+.two p{
+    margin-top: 0.5rem;
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.two .ducks{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 1rem 1rem;
+}
+.two .ducks .d img{
+    height: 5rem;
+    width: auto;
+    justify-content: center;
+    margin: 1rem 2rem;
+    
+}
+.two .ducks .d p{
+    text-align: center;
+    align-items: center;
+}
+.two .ducks .d{
+    background: lightgray;
+    justify-content: center;
+    margin: 1rem 1rem;
+    border-radius: 15px;
+}
+.two .bottom img{
+    width: 100%;
+    height: 20%;
+    margin-top: 0;
+    
+}
+.three h3{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    text-align: center;
+}
+.four{
+    margin-top: 1rem;
+}
+.four .boxes{
+    display: grid;
+    justify-content: center;
+
+}
+.four .boxes .box{
+    background: rgb(249, 232, 225);
+    margin: 0.5rem 1rem;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+.four .boxes .box img{
+    border:3px solid whitesmoke;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 15px;
+    margin: 0.9rem 1.5rem;
+}
+.four .boxes .box p{
+    margin: 0.5rem 0.5rem
+}
+.four .boxes .box button{
+    margin-left: 0.2rem;
+    background: rgb(60, 207, 217);
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 0.3rem 0.5rem;
+}
+.five{
+    margin-top: 2rem;
+}
+.five h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.five .one{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+}
+.five .one .a{
+    border-radius: 15px;
+    background: rgb(199, 230, 230);
+    margin-top: 1rem;
+}
+.five .one .a header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.five .one .a header img{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    margin: 1rem 0.5rem;
+}
+.five .one .a ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 2rem;
+    border-radius: 15px;
+}
+.five .one .a ul img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 10px;
+    margin: 0.3rem 0.3rem;
+    border: 2px solid white;
+    
+}
+.five .bottom p{
+    margin: 1rem 2rem;
+    text-align: center;
+}
+.seven h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 1.5rem;
+    text-align: center;
+} 
+.seven p{
+    margin: 1rem 2rem;
+    text-align: center;
+}   
+.seven img{
+    margin-left: 8rem;
+    border-radius: 15px;
+    height: 8rem;
+    width: 8rem;
+}
+.eight .top{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eight .top img{
+    height: 2rem;
+    width: 2rem;
+}
+.eight p{
+    margin: 1rem 1.8rem;
+    text-align: center;
+}
+.eight ul{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.eight ul li img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+}
+.nine h3{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+.nine ul{
+    display: grid;
+    justify-content: center;
+}
+.nine ul li{
+    margin-top: 0.3rem;
+   
+}
+.nine input{
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    border: none;
+    background: pink;
+    height: 1.5rem;
+    justify-content: center;
+    padding: 0.4rem;
+    font-size: 1rem;
+}
+.nine input:hover{
+    cursor: pointer;
+    border: none;
+}
+.nine button{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background: rgb(60, 207, 217);
+    color: white;
+    border: none;
+    height: 1.5rem;
+    padding: 0.3rem 0.3rem;
+}
+#k{
+    text-align: center;
+}
+@media screen and (min-width: 700px){
+    .one .top{
+        margin-top: 3rem;
+    }
+    .one .top img{
+        height: 3rem;
+        width: 3rem;
+    }
+    .one .top h1{
+        font-size: 2.5rem;
+    }
+    .one .left h3{
+        font-size: 2.2rem;
+    }
+    .one .left p{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 80%;
+        font-size: 1.5rem;
+    }
+    .one .left h4{
+        font-size: 1.8rem;
+        margin-top: 2rem;
+    }
+    .one .left .buttons{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .one .left .buttons p{
+        font-size: 1.3rem;
+    }
+    .one .right{
+        position: relative;
+    }
+    .one .right .foreground{
+        height: 11rem;
+        width: 16rem;
+        border: 5px solid white;
+        margin-left: 12rem;
+        position: absolute;
+        margin-top: 10rem;
+    }
+    .two h3{
+        font-size: 2.2rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .two p{
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+    .two .ducks .d{
+        justify-content: center;
+       
+    }
+    .two .ducks .d img{
+        margin-left: 7rem;
+    }
+    .three h3{
+        font-size: 2.2rem;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+    .four .boxes{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .four .boxes .box{
+        margin: 2rem 2rem;
+        font-size: 1.5rem;
+    }
+    .four .boxes .box img{
+        height: 7rem;
+        width: 9rem;
+        margin: 1rem 2rem;
+    }
+    .four .boxes .box p{
+        align-items: center;
+        justify-content: center;
+    }
+    .four .boxes .box .price{
+        font-size: 1.3rem;
+        justify-content: center;
+    }
+    .four .boxes .box button{
+        font-size: 1rem;
+    }
+    .five h3{
+        font-size: 2.2rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .five .one .a header img{
+        height: 2rem;
+        width: 2rem;
+    }
+    .five .one .a header p{
+        font-size: 1.5rem;
+    }
+    .five .one .a ul li img{
+        height: 6rem;
+        width: 8rem;
+        border-radius: 15px;
+        margin: 1.5rem 1.5rem;
+    }
+    .five .one .a ul{
+        margin-bottom: 1.8rem;
+    }
+    .five .one .a{
+        margin-top: 1.5rem;
+    }
+    .five .bottom p{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+    .seven h3{
+        font-size: 2.2rem;
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .seven p{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    .seven img{
+        height: 13rem;
+        width: auto;
+        margin: 0.7rem 0;
+        margin-left: 14.5rem;
+    }
+    .eight .top img{
+        height: 2.8rem;
+        width: 2.8rem;
+    }
+    .eight .top h3{
+        font-size: 2.3rem;
+    }
+    .eight p{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    .eight ul{
+        margin-top: 1rem;
+    }
+    .eight ul li img{
+        height: 2.7rem;
+        width: 2.7rem;
+        margin-left: 1rem;
+    }
+    .nine #i{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .nine ul li{
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+    .nine h3{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .nine input{
+        height: 1.9rem;
+        border-radius: 10px;
+        margin-left: 15rem;
+        
+    }
+    .nine button{
+        font-size: 1.1rem;
+        padding: 0.2rem 0.4rem;
+        border-radius: 10px;
+    }
+    
+
+}
+@media screen and (min-width: 1200px){
+    .one{
+        display: flex;
+        height: 100vh;
+        
+        
+    }
+    .one .top h1{
+        font-size: 3rem;
+        margin-top: 0.5rem;
+    }
+    .one .left h3{
+        font-size: 2.5rem;
+    }
+    .one .left{
+        margin-left: 3rem;
+    }
+    .one .right{
+        height: 100vh;
+        width: 40vw;
+        position: relative;
+        margin-left: -10rem;
+    }
+    .one .right .background{
+        rotate: 205deg;
+        position: absolute;
+        top: -17rem;
+        right: -1rem;
+        height: 70rem;
+        width: 40rem;
+        z-index: -1;
+    }
+    .one .right .foreground{
+        position: relative;
+        margin-left: -0.3rem;
+        rotate: 15deg;
+        margin-top: 4rem;
+        height: 13rem;
+        width: 18rem;
+    }
+    .two{
+        height: 100vh;
+    }
+    .two h3{
+        margin-top: 1rem;
+    }
+    .two p{
+        margin-top: 1.5rem;
+    }
+    .two .ducks{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .two .ducks .d{
+        display: grid;
+       justify-content: center;
+    }
+    .two .ducks .d img{
+        margin-right: 4.5rem;
+    }
+    .two .bottom img{
+        height: 15rem;
+    }
+    .three{
+        margin-top: 7rem;
+        margin-bottom: 0;
+    }
+    .four{
+        margin-top: 0;
+        margin-bottom: 9rem;
+    }
+    .four .boxes{
+       display: flex;
+    }
+    .four .boxes .box img{
+        height: 8rem;
+        width: 10rem;
+    }
+    .four .boxes .box button{
+        height: 2rem;
+        font-size: 1.2rem;
+    }
+    .five{
+        background-image: url(./b.jpg);
+        background-position-x: 48%;
+    }
+    .five h3{
+        color: white;
+    }
+    .five .one{
+        display: flex;
+        gap: 4rem;
+        
+    }
+    .five .one .a{
+        padding-bottom: 0;
+        height: 22rem;
+        margin-top: 5rem;
+    }
+    .five .one .a ul li img{
+        height: 5rem;
+        width: 5rem;
+        margin: 1rem 1rem;
+    }
+    .five .bottom p{
+        margin-top: -4rem;
+    }
+    .seven{
+        height: 100vh;
+        padding-top: 9rem;
+        background-image: url(./b3.jpg);
+        background-position-x: 85%;
+        border: beige;
+    }
+    .seven h3{
+       color: black;
+       margin-left: -1rem;
+       width: 80%;
+    }
+    .seven p{
+       font-size: 1.6rem;
+       
+       width: 50%;
+       margin-left: 5rem;
+    }
+    .seven img{
+        margin-left: 50rem;
+        margin-top: -14rem;
+    }
+    .seven .v{
+        padding-top: 1.5rem;
+        background: papayawhip;
+        margin-left: 7.5rem;
+        margin-right: 7.5rem;
+        border-radius: 15px;
+    }
+    .eight{
+        width: 35%;
+    }
+    .eight p{
+        font-size: 1.2rem;
+        
+    }
+    .nine{
+        margin-top: -11rem;
+        margin-bottom: 2rem;
+    }
+    #o{
+        margin-left: 45rem;
+        margin-top: -9rem;
+
+    }
+    .nine ul li{
+        font-size: 1.2rem;
+    }
+    #k{
+        margin-left: 52rem;
+        font-size: 1.2rem;
+        width: 30%;
+    }
+    #b{
+        margin-left: 54rem;
+        width: 15rem;
+        margin-top: 0.5rem;
+        height: 2.2rem;
+        display: grid;
+        font-size: 1.2rem;
+        padding-left: 0.5rem;
+    
+    }
+    
+}
